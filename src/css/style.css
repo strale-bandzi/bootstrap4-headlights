@@ -1,0 +1,52 @@
+body {
+  background: #5e5959;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 3px solid #00e8d6;
+  opacity: 0.6; }
+
+#main-footer {
+  border-top: 3px solid #00e8d6; }
+
+.modal-header {
+  border-bottom: 2px solid #00e8d6; }
+
+.modal-footer {
+  border-top: 2px solid #00e8d6; }
+
+#home-section {
+  background: url("../img/audi.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #home-section .home-inner {
+    padding-top: 130px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+  #home-section .card-form {
+    opacity: 0.7; }
+  #home-section .fa {
+    color: #00e8d6;
+    border-radius: 5px;
+    padding: 3px;
+    background: #fff;
+    font-size: 20px; }
+
+#explore-section .fa {
+  background: #00e8d6;
+  border-radius: 4px;
+  padding: 3px;
+  color: #fff;
+  font-size: 20px; }
+
+#explore-section h3 {
+  color: #5e5959; }
+
+#brand {
+  color: #00e8d6; }
